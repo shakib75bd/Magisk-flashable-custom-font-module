@@ -65,6 +65,7 @@ If you have only one Bengali font file, duplicate it for the Medium and Bold var
   - Ensure **Zygisk** is enabled in Magisk settings.
   - Check that **Font Loader** is installed and active.
   - Force-close or clear cache of affected apps.
+  - If Google apps still display the old fonts after flashing, try flashing the KillGMSFont Magisk module: https://github.com/MrCarb0n/killgmsfont. This often resolves Google-app font issues.
 
 ---
 
