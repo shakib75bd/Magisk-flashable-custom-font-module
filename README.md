@@ -29,7 +29,7 @@ Unlike the original installer version, **this variant uses direct module mode**,
 > ⚠️ If you have **.otf** format fonts, just rename the font files to **.ttf** in the extension, it will work fine.
 
 > ⚠️ The `Files/` folder is **included** in the original ZIP, it contains
-Dank mono and Kohinoor (Bengali) for now. Change as you wish, you own custom fonts.
+Dank mono and Kohinoor (Bengali) for now. Change as you wish, your own custom fonts.
 
 | Category | Required filenames | Example |
 |-----------|--------------------|----------|
