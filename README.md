@@ -24,29 +24,12 @@ Unlike the original installer version, **this variant uses direct module mode**,
 
 ---
 
-## 🧱 Folder Structure
+## 🪶 Font Naming Rules (see the existing example too for practical understanding)
 
-Your working directory should look like this:
-
-```
-mffmv11/
-├── Files/
-│   ├── Regular.ttf
-│   ├── Bold.ttf
-│   ├── Beng-Regular.ttf
-│   ├── Beng-Medium.ttf
-│   └── Beng-Bold.ttf
-├── META-INF/
-├── customize.sh
-├── module.prop
-└── service.sh
-```
+> ⚠️ If you have **.otf** format fonts, just rename the font files to **.ttf** in the extension, it will work fine.
 
 > ⚠️ The `Files/` folder is **included** in the original ZIP, it contains
 Dank mono and Kohinoor (Bengali) for now. Change as you wish, you own custom fonts.
----
-
-## 🪶 Font Naming Rules (see the existing example too for practical understanding)
 
 | Category | Required filenames | Example |
 |-----------|--------------------|----------|
@@ -60,8 +43,8 @@ If you have only one Bengali font file, duplicate it for the Medium and Bold var
 
 ## 🪄 How to Build and Flash
 
-1. Inside the project, **create** a folder named `Files`.
-2. Place and rename your fonts according to the table above.
+1. Simply clone this repo.
+2. Place and rename your fonts inside `Files/` folder according to the table above.
 3. Select all project contents and **zip them** (don’t include an extra parent folder).  
    The ZIP root should show:
    ```
